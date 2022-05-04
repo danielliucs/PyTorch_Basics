@@ -9,9 +9,9 @@ print(l(v)) #function
 
 #Combining layers into a pipeline
 s = nn.Sequential(
-    nn.Linear(2,5),
-    nn.ReLU(),
-    nn.Linear(5,20),
+    nn.Linear(2,5), #input passed here first
+    nn.ReLU(), #output of that input to be passed here as input
+    nn.Linear(5,20), #output of previous passed here as input... etc
     nn.ReLU(),
     nn.Linear(20,10),
     nn.Dropout(p=0.3),
