@@ -3,7 +3,7 @@ import torch
 
 #nn module is callable, the instance of any class can act like function when applied to its arguments
 l = nn.Linear(2,5)
-v = torch.FloatTensor([1,2]) #tensor [1,2], vector of two
+v = torch.FloatTensor([1,2]) #tensor [1,2], the two inputs
 print(l(v)) #function
 
 
