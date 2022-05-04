@@ -14,3 +14,6 @@ if __name__ == "__main__":
             writer.add_scalar(name, val, angle) #adding angles over and over again to form graph
 
     writer.close()
+
+    
+    #tensorboard --logdir runs --host localhost in terminal to see plot
