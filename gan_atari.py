@@ -19,7 +19,7 @@ log.set_level(gym.logger.INFO)
 
 LATENT_VECTOR_SIZE = 100
 DISCR_FILTERS = 64
-GENERE_FILTERES = 64
+GENER_FILTERS= 64
 BATCH_SIZE = 16
 
 #dimension of input image initially
